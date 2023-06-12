@@ -1,0 +1,35 @@
+.hero {
+  height: 100vh;
+  top: 0;
+  color: #fff;
+  scroll-snap-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    height: 200vh;
+  }
+}
+
+.hero__tittle {
+  font-size: 74px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 50px 100px;
+}
+
+.hero__desc {
+  width: 25vw;
+  margin: 50px 100px;
+}
+
+.hero__button {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+}
