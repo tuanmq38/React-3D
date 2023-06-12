@@ -1,5 +1,5 @@
 import Button from 'react-bootstrap/esm/Button';
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 import './Hero.css';
 
 export default function Hero() {
