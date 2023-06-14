@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Image } from 'react-bootstrap';
 
 const Section = styled.div`
   height: 100vh;
