@@ -1,15 +1,17 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
+import { Features } from './components/Features';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Main/>
-      {/* <Hero /> */}
+      <Features/>
+      <Contact/>
     </BrowserRouter>
   );
 }

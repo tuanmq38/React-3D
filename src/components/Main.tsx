@@ -7,7 +7,7 @@ export default function Main() {
     <div className="main__section">
       <div className="main__container">
         <div className="main__left">
-          <h1>Home Automation</h1>
+          <h1>Smart Home Technology</h1>
           <h2>Control Your House</h2>
           <div className="main__desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam id

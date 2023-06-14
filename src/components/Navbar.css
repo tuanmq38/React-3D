@@ -19,13 +19,18 @@
 }
 
 .button {
-  width: 120px;
+  width: 100px;
   height: 35px;
-  background-color: transparent;
-  color: white;
+  background-color: none;
   border: 1px solid; 
   border-radius: 5px;
   cursor: pointer;
+  /* animation: glowing 1500ms infinite; */
+}
+
+.button:hover {
+  background-color: #a4dcf3;
+  box-shadow: 0 5px 15px rgba(164, 220, 243, .4);
 }
 
 .nav-elements ul {
@@ -52,3 +57,8 @@
   position: relative;
 }
 
+@-webkit-keyframes glowing {
+  0% { background-color: #a4dcf3; -webkit-box-shadow: 0 0 3px #a4dcf3; }
+  50% { background-color: #0c182c; -webkit-box-shadow: 0 0 40px #0c182c; }
+  100% { background-color: #a4dcf3; -webkit-box-shadow: 0 0 3px #a4dcf3; }
+}

@@ -17,7 +17,7 @@ export default function Navbar() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/features">Features</NavLink>
               </li>
               <li>
                 <NavLink to="/projects">Projects</NavLink>
@@ -28,7 +28,7 @@ export default function Navbar() {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
-              <Button className='button'>Get Started</Button>
+              <Button className='button'>Free Trial!</Button>
             </ul>
           </div>
         </div>
